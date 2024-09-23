@@ -1,0 +1,21 @@
+.dropdown-menu-style ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-menu-style li a {
+    color: gray;
+    padding: 0.5em 1em;
+
+}
+
+.dropdown-menu-style li:first-child a {
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+
+.dropdown-style {
+    background: #FFFFFF;
+    width: 530px;
+}
