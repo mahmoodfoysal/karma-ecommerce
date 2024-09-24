@@ -19,13 +19,13 @@ const Categories = () => {
           <div key={index} className="card category-card-style bg-base-100 w-100 shadow-xl">
             <figure>
               <img
-                src={category.cat_image}
+                src={category.image}
                 alt="Shoes"
               />
             </figure>
             <div className="card-body category-card-body-style">
               <h2 className="card-title category-card-title py-2">
-                {category.cat_name}
+                {category.name}
               </h2>
             </div>
           </div>
