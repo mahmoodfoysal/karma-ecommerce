@@ -19,9 +19,8 @@ const ProductCard = ({product, index}) => {
             {index > 6 ? <div className="badge badge-secondary">New</div> : ''}
           </h2>
           <p>{description.slice(1, 100)}</p>
-          <div className="card-actions justify-end">
-            <div className="badge badge-outline">Fashion</div>
-            <div className="badge badge-outline">Products</div>
+          <div className="card-actions justify-center">
+            <button className="bg-secondary text-white py-2 px-2 rounded-lg font-medium">Add To Cart</button>
           </div>
         </div>
       </div>
